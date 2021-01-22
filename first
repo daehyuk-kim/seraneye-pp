@@ -1,6 +1,6 @@
 #세란차트 읽기
 #nix pen
-#매크로 이용
+#매크로 이용(네이버 로그인)
 
 import pyautogui as pag
 login_btn = pag.position()
@@ -15,4 +15,4 @@ pag.click(id_position)
 pag.typewrite("rlaeogur39")
 pag.press("tap")
 pag.typewrite("ckddnehd1@")
-
+#실패
