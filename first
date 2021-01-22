@@ -1,2 +1,18 @@
 #세란차트 읽기
 #nix pen
+#매크로 이용
+
+import pyautogui as pag
+login_btn = pag.position()
+print(login_btn)
+Point(x=1293, y=426)
+pag.click(login_btn)
+id_position = pag.position()
+print(id_position)
+Point(x=866, y=252)
+pag.click(id_position)
+
+pag.typewrite("rlaeogur39")
+pag.press("tap")
+pag.typewrite("ckddnehd1@")
+
